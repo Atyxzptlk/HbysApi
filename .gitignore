@@ -3,9 +3,8 @@ bin/
 obj/
 
 # Config dosyalarını yok say
-Config/appsettings.json
-Config/appsettings.Development.json
-
+# src/HbysApi.WebApi/Config/appsettings.json
+src/HbysApi.WebApi/Config/appsettings.Development.json
 
 # Visual Studio geçici dosyaları ve build sonuçları
 # Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
