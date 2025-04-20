@@ -3,6 +3,8 @@ using HbysApi.Domain.Entities; // IEntity'nin bulunduğu namespace
 
 namespace HbysApi.Application.Services;
 
+// BaseService: Base class for service implementations
+// BaseService: Servis implementasyonları için temel sınıf
 public class BaseService<T> : IService<T> where T : class, IEntity
 {
     private readonly IRepository<T> _repository;
